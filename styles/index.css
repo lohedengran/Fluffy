@@ -2,7 +2,6 @@
   font-family: "Nunito Sans", sans-serif;
 }
 .body {
-  max-width: 1440px;
   width: 100%;
 }
 .header {
@@ -20,7 +19,6 @@
   font-family: "Nunito Sans", sans-serif;
   font-size: 14px;
   color: #13253a;
-  margin-right: 135px;
 }
 .bottom {
   display: flex;
@@ -77,4 +75,94 @@ h3 {
 .kpi {
   background-color: #f4f6f7;
   height: 205px;
+}
+.footer {
+  height: 817px;
+}
+.contact {
+  height: 817px;
+  background-color: #11364e;
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 52px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+.cfa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 434px;
+  background-color: #ff7f57;
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.help {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.build {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 63px;
+  color: #ffffff;
+}
+
+.lorem {
+  width: 770px;
+}
+
+.button2 {
+  background-color: #2557ab;
+  color: #ffffff;
+  width: 336px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+}
+
+.form {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+}
+input {
+  background-color: transparent;
+  border: none;
+  margin-top: 21px;
+  width: 100%;
+  height: 30px;
+}
+input::placeholder {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  width: 371px;
+  opacity: 0.25;
+  font-size: 18px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  background-color: #13253a;
 }
